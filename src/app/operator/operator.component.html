@@ -1,0 +1,8 @@
+<div class="operator">
+    <div class="question">{{question}}</div>
+    <ul class ="buttons">
+        <li *ngFor="let answer of answers; index as index">
+            <app-operatorpanel [answer]="answer" [guessed]="guessed[index]" [index]="index"></app-operatorpanel>
+        </li>
+    </ul>
+</div>

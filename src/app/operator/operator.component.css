@@ -1,0 +1,16 @@
+
+.operator {
+    border: 5px black;
+    background-color: red;
+}
+
+.question {
+    float:left;
+    width: 40%;
+    font-size:xx-large;
+}
+
+.buttons {
+    float: right;
+    width: 50%;
+}

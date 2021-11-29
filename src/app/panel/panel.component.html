@@ -1,0 +1,8 @@
+<div class="anyPanel">
+    <span *ngIf="index<answers.length; else elseBlock" [ngClass]="{revealed: guessed[index], hidden: !guessed[index]}">
+    <span class="number">{{index+1}}</span>
+    <span class="answer">{{answer.answer | uppercase}}</span>
+    <span class="responseCount">{{answer.responses}}</span>
+</span>
+<ng-template #elseBlock><span class="elseBlock"></span></ng-template>
+</div>

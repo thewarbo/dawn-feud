@@ -1,0 +1,8 @@
+<div class="board">
+<div class="bank">{{gamestateService.bank}}</div>
+<ul>
+    <li *ngFor="let index of [0,1,2,3,4,5,6,7]">
+        <app-panel [index]="index" [answer]="answers[index]" [answers]="answers" [guessed]="guessed"></app-panel>
+    </li>
+</ul>
+</div>

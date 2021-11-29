@@ -1,0 +1,29 @@
+.board {
+    background-color: blue;
+    padding: 5px;
+    font-size: 8vh;
+}
+
+li {
+    grid-row: auto;
+    grid-column: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    padding-left: 0;
+}
+
+.bank {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 1em;
+    border: 5px solid #f08120;
+    text-align: center;
+}
